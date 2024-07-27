@@ -1,0 +1,11 @@
+<div class="text ct">
+  <h3 class="title">
+    TÓPICOS:
+  </h3>
+  <div class="linhaCard ct">
+    <mat-card *ngFor="let content of contents" class="card ct">
+      <img mat-card-image src= {{content.icon}}  alt="simbolizando tema">
+      <mat-card-title class="cardTitle">{{ content.nome }}</mat-card-title>
+    </mat-card>
+  </div>
+</div>

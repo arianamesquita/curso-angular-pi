@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: #f9f9f9;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url('../src/assets/font/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/font/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/font/Poppins/Poppins-SemiBold.ttf');
+}

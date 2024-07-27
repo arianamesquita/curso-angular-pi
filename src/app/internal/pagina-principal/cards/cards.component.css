@@ -1,0 +1,36 @@
+.ct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  flex-direction: column;
+  width: 100%;
+  padding-top: 60px;
+}
+.title{
+  width: 969px;
+  height: 53px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 800;
+  color: #84A6E0;
+}
+.linhaCard{
+  width: 969px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  height: 200px;
+  width: 241px;
+  background: #85E0E0;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cardTitle{
+  font-family: 'Poppins-Bold';
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="left">
+    <button mat-stroked-button class="ifinclusivo">
+      <img src="{{ ifinclusivo }}" alt="IFInclusivo">
+    </button>
+  </div>
+  <div class="middle">
+    <button mat-stroked-button color="#97EED1" class="buttons"
+      *ngFor="let button of buttons">{{ button.text }}
+    </button>
+  </div>
+  <div class="right">
+    <button mat-stroked-button class="usuario">{{ usuario }}</button>
+  </div>
+</div>

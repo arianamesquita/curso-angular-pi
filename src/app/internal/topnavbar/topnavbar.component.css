@@ -1,0 +1,47 @@
+.container{
+  background-color: #84E0C1;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.left, .right{
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle{
+  width: 74%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ifinclusivo{
+  background-color: #E9EDED;
+  min-width: 140px;
+  min-height: 40px;
+  border: none;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons, .usuario{
+  background-color: #97EED1;
+  color: #010004 69%;
+  font-family: "Poppins-SemiBold";
+  font-size: 20px;
+  font-weight: 400;
+  min-width: 160px;
+  min-height: 40px;
+  border: none;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons:hover, .usuario:hover, .ifinclusivo:hover {
+  color: #ffffff 69%;
+  background-color: #6D90CC;
+}
